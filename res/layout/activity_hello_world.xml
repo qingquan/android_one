@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#EFF0F4"
+    android:orientation="vertical"
+    tools:context=".HelloWorldActivity" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+        android:background="#fff">   
+ 
+        <ImageView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="20px"
+	        android:src="@drawable/ic_launcher"
+	        android:background="@drawable/back" />  
+	        
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="20px"
+	        android:text="More than 10,000 HD Wallpapers here.\r\nHope you enjoy :)"
+	        android:background="@drawable/back"
+	        android:textSize="16sp" />  
+	        
+	    <TextView
+	        android:id="@+id/desp_4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:autoLink="web"
+	        android:padding="20px"
+	        android:text="@string/app_link"
+	        android:background="@drawable/back"
+	        android:textSize="18sp" />
+    
+	    <TextView
+	        android:id="@+id/desp_5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:autoLink="email"
+	        android:padding="20px"
+	        android:text="@string/app_feedback"
+	        android:background="@drawable/back"
+	        android:textSize="18sp" />
+	    
+   	    <Button
+   	        android:id="@+id/testButton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="20px"
+	        android:onClick="rateAppDialog"
+	        android:text="Test Alter Button"
+	        android:background="@drawable/back" />
+	        
+    </LinearLayout>
+
+    
+
+    
+    <!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_centerVertical="true" -->
+<!--         android:layout_alignParentTop="true" -->
+
+
+</LinearLayout>
